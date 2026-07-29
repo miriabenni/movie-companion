@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+langgraph
+langchain-groq
+langchain-mcp
+langchain-mcp-adapters
+httpx
+python-dotenv
+sqlalchemy
+sse-starlette
+pydantic
+mcp
