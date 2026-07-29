@@ -1,9 +1,10 @@
 fastapi
 uvicorn
-langgraph
+langgraph>=0.2.0
 langchain-groq
 langchain-mcp
 langchain-mcp-adapters
+langchain-core>=0.3.0
 httpx
 python-dotenv
 sqlalchemy
