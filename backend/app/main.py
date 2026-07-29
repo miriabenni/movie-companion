@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import chat
@@ -18,3 +19,7 @@ app.include_router(chat.router, prefix="/api")
 @app.get("/")
 def greet():
     return{"status":"ok", "message":"Movie Companion is hereee"}
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
