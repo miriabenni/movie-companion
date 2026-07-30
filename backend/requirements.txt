@@ -2,11 +2,11 @@ fastapi
 uvicorn
 langgraph
 langchain-groq
-langchain-mcp-adapters
+langchain-mcp-adapters==0.0.9
 langchain-core
 httpx
 python-dotenv
 sqlalchemy
 sse-starlette
 pydantic
-mcp
+mcp==1.2.0
