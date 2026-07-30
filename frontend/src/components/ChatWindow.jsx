@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import MessageBubble from './MessageBubble'
 
-const BACKEND = 'http://localhost:8000'
+const BACKEND = 'https://movie-companion-backend-fehp.onrender.com/'
 
 export default function ChatWindow({ open, onClose }) {
   const [stage, setStage] = useState('onboard') // 'onboard' | 'chat'
